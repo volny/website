@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .main {
   width: 100vw;
   height: 235vh;
@@ -7,29 +12,14 @@
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-section {
+header {
   width: 100vw;
   display: flex;
   justify-content: center;
   color: #ecf0f1;
-}
-
-.head-section {
   align-items: center;
+  flex-direction: column;
   height: 85vh;
-}
-
-.content-section {
-  height: 60vh;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-
-.header-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .heading {
@@ -42,6 +32,24 @@ section {
 
 .logo {
   max-width: 180px;
+}
+
+section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  color: #ecf0f1;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.intro-section {
+  height: 60vh;
+}
+
+.project-section {
+  height: 80vh;
 }
 
 .content {
@@ -72,6 +80,10 @@ section {
 
 .emphasis {
   font-style: italic;
+}
+
+footer {
+  height: 10vw;
 }
 
 @media (min-width: 600px) {
