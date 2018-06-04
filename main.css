@@ -11,16 +11,19 @@ section {
   width: 100vw;
   display: flex;
   justify-content: center;
-  color: #ecf0f1;
-  align-items: center;
+  /* color: #ecf0f1; */
+  color: #bdc3c7;
+
 }
 
 .section1 {
-  height: 80vh;
+  align-items: center;
+  height: 85vh;
 }
 
 .section2, .section3 {
   height: 100vh;
+  align-items: flex-start;
 }
 
 .header-container {
@@ -45,6 +48,22 @@ section {
   font-size: 30px;
   width: 85%;
   max-width: 600px;
+  margin: 0;
+}
+
+.content2 {
+
+}
+
+.content > a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 4px solid #ffffff;
+}
+
+.content > a:hover {
+  color: #f1c40f;
+  border-bottom: 4px solid #f1c40f;
 }
 
 @media (min-width: 600px) {
