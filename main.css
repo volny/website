@@ -9,11 +9,18 @@
 
 section {
   width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   color: #ecf0f1;
   align-items: center;
+}
+
+.section1 {
+  height: 80vh;
+}
+
+.section2, .section3 {
+  height: 100vh;
 }
 
 .header-container {
@@ -27,11 +34,11 @@ section {
   font-weight: 900;
   font-size: 50px;
   margin: 0;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
 
 .logo {
-  max-width: 40vw;
+  max-width: 180px;
 }
 
 .content {
@@ -47,5 +54,9 @@ section {
 
   .content {
     font-size: 44px;
+  }
+
+  .logo {
+    max-width: inherit;
   }
 }
