@@ -83,7 +83,7 @@ section {
 }
 
 footer {
-  height: 10vw;
+  height: 10vh;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -92,12 +92,27 @@ footer {
 .icon-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 300px;
 }
 
-.social-icon:hover {
+a svg .svg-logo {
+ transition: 200ms;
+ transition-timing-function: ease-in-out;
+ -webkit-transition: 300ms;
+ -webkit-transition-timing-function: ease-in-out;
+ }
+
+a svg:hover .svg-logo {
   fill: #f1c40f;
 }
+
+.logo-link {
+  outline: none; 
+  border: 0; 
+  text-decoration: none; 
+}
+
 
 @media (min-width: 600px) {
   .heading {
@@ -119,7 +134,6 @@ footer {
   .icon-container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     width: 400px;
   }
 }
