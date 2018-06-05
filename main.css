@@ -96,7 +96,7 @@ footer {
   width: 300px;
 }
 
-a svg .svg-logo {
+a, a svg .svg-logo {
  transition: 200ms;
  transition-timing-function: ease-in-out;
  -webkit-transition: 300ms;
