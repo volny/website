@@ -1,0 +1,3 @@
+[submodule "quotes"]
+	path = quotes
+	url = git@github.com:volny/pragmatic-quotes.git
