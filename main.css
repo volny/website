@@ -27,11 +27,11 @@ header {
   font-weight: 900;
   font-size: 50px;
   margin: 0;
-  padding: 10px 0 0 0;
+  padding: 5px 0 0 0;
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 85px;
 }
 
 section {
@@ -59,13 +59,17 @@ section {
   margin: 0;
 }
 
+div.content {
+  padding: 15px 0;
+}
+
 .content > a {
   color: #ffffff;
   text-decoration: none;
   border-bottom: 4px solid #ffffff;
 }
 
-.content > a:hover {
+.content:hover > a {
   color: #f1c40f;
   border-bottom: 4px solid #f1c40f;
 }
@@ -128,7 +132,7 @@ a svg:hover .svg-logo {
   }
 
   .logo {
-    max-width: 125px;
+    max-width: 105px;
   }
 
   .icon-container {
