@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 225vh;
+  height: 240vh;
   width: 100vw;
 }
 
@@ -47,11 +47,11 @@ section {
 }
 
 .intro-section {
-  height: 60vh;
+  height: 65vh;
 }
 
 .project-section {
-  height: 70vh;
+  height: 80vh;
 }
 
 .content {
@@ -114,11 +114,10 @@ a svg:hover .svg-logo {
 }
 
 .logo-link {
-  outline: none; 
-  border: 0; 
-  text-decoration: none; 
+  outline: none;
+  border: 0;
+  text-decoration: none;
 }
-
 
 @media (min-width: 600px) {
   .heading {
