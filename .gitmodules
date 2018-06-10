@@ -1,3 +1,6 @@
 [submodule "quotes"]
 	path = quotes
 	url = git@github.com:volny/pragmatic-quotes.git
+[submodule "colors"]
+	path = colors
+	url = git@github.com:volny/colors2018.git
